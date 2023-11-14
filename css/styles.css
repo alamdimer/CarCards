@@ -1,0 +1,134 @@
+
+.contenedorMain{
+    width: 720px;
+    display: flex;
+    padding: 10%;
+    background: hsl(0, 0%, 95%);
+    margin: auto;
+}
+
+.backgroundOrange{
+   background:hsl(31, 77%, 52%);
+}
+
+.backgroundBlue{
+    background:hsl(184, 100%, 22%);
+}
+
+ .backgroundGreen{
+    background:hsl(179, 100%, 13%);
+ }
+
+  @media screen and (max-width: 375px) {
+    .contenedorMain {
+        width: 375px;
+        padding: 10%;
+        background: hsl(0, 0%, 95%);
+        margin: auto;
+        flex-direction: column;
+    }
+  }
+
+  .buttonOrangeFont{
+    background-color: hsl(30, 100%, 100%);
+    color:  hsl(31, 77%, 52%);
+    text-align: center;
+  }
+
+  .buttonBlueFont{
+    background-color: hsl(30, 100%, 100%);
+    color:hsl(184, 100%, 22%);
+    text-align: center;
+  }
+
+  .buttonGreenFont{
+    background-color: hsl(30, 100%, 100%);
+    color:hsl(179, 100%, 13%);
+    text-align: center;
+  }
+
+
+
+
+  #learnMoreSedans:hover {
+      background-color: hsl(31, 77%, 52%);
+      color: rgb(255, 255, 255);
+      text-align: center;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border: 1px;
+      border-style: solid;
+      border-color: rgb(255, 255, 255)
+  }
+
+  #learnMoreSuvs:hover {
+    background:hsl(184, 100%, 22%);
+    color: rgb(255, 255, 255);
+      text-align: center;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border: 1px;
+      border-style: solid;
+      border-color: rgb(255, 255, 255)
+  }
+
+  #learnMoreLuxury:hover {
+    background-color:hsl(179, 100%, 13%);
+    color: rgb(255, 255, 255);
+      text-align: center;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border: 1px;
+      border-style: solid;
+      border-color: rgb(255, 255, 255)
+  }
+ 
+   
+.paddingsIcons{
+    padding: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+    .paddingsHeads{
+      padding: 40px;
+      padding-left: 40px;
+      padding-bottom: 5px;
+      padding-top: 1px;
+      
+      display: flex;
+      color: hsla(0, 0%, 100%, 0.75);
+      place-content: center;
+      font-size: 28px;
+      font-family: 'Big Shoulders Display';
+      justify-content: left;
+    }
+
+    .paddingsParagraph{
+        padding: 40px;
+        padding-left: 40px;
+        display: flex;
+        color: hsla(0, 0%, 100%, 0.75);
+        place-content: center;
+        font-size: 15px;
+        font-family: 'Lexend Deca';
+        height: 150px;
+        padding-top: 0px;
+    }
+
+    .paddingsButtons{
+      padding: 40px;
+      padding-left: 40px;
+    }
+     
+ 
+  
+
+  .learnMore{
+    width: 60%;
+    justify-content: center;
+    height: 35px;
+    align-items: center;
+    border-radius: 30px;
+    border:1px;
+ }
